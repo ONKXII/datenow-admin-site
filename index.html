@@ -1,21 +1,39 @@
 <!doctype html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#111318" />
-    <meta name="robots" content="noindex,nofollow" />
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="DateNow" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <title>DateNow · Админка</title>
-    <script type="module" crossorigin src="/assets/index-DRa5MKGQ.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-VECVyCT4.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#faf9fa" />
+    <meta
+      name="description"
+      content="DateNow. Поддержка, пользовательское соглашение и политика конфиденциальности."
+    />
+    <title>DateNow</title>
+    <link rel="canonical" href="https://datenow.am/" />
+    <link rel="stylesheet" href="/assets/landing.css" />
   </head>
-  <body>
-    <div id="root"></div>
+  <body class="landing">
+    <main class="brand" aria-label="DateNow">
+      <picture>
+        <source
+          media="(prefers-color-scheme: dark)"
+          srcset="/assets/datenow-logo-dark.svg"
+        />
+        <img
+          src="/assets/datenow-logo.svg"
+          alt="DateNow"
+          width="392"
+          height="68"
+        />
+      </picture>
+    </main>
+    <footer class="footer">
+      <nav aria-label="Поддержка и документы">
+        <a href="mailto:info@datenow.com">info@datenow.com</a>
+        <a href="/terms/">Пользовательское соглашение</a>
+        <a href="/privacy/">Политика конфиденциальности</a>
+      </nav>
+    </footer>
   </body>
 </html>
